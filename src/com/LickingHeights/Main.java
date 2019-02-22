@@ -39,6 +39,9 @@ public class Main {
         if(userNumber>=91&&userNumber<=100) {
             System.out.println("MY SOURCES SAY NO");
         }
-
+        
+        else{
+            System.out.println("Type a number between 1 and 100");
+    }
     }
 }
