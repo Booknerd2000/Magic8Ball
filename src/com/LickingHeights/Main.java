@@ -5,12 +5,25 @@ public class Main {
     public static void main(String[] args) {
 	Scanner keyboard;
 	keyboard = new Scanner(System.in);
+        System.out.println("  _ _   _   __  ___  __   _   _   _             ");
+        System.out.println(" | | | |_| | _   |  |    |_| |_| |_||  |        ");
+        System.out.println(" |   | | | |__| _|_ |__  |_| |_ || ||__|__      ");
+        System.out.println("            ..........            ");
+        System.out.println("        ........     .....        ");
+        System.out.println("      ......   _____   .....      ");
+        System.out.println("     ......   |     |    ....     ");
+        System.out.println("    ......    |_____|    .....    ");
+        System.out.println("    ......   |       |   .....    ");
+        System.out.println("    .......  |       |   .....    ");
+        System.out.println("     ....... |_______|  .....     ");
+        System.out.println("       ........       .....       ");
+        System.out.println("            ..........            ");
 
 	System.out.println("Think of a question and type a number for a response");
 	int userNumber = keyboard.nextInt();
 
         if(userNumber>=1&&userNumber<=10) {
-            System.out.println("OUT LOOK GOOD");
+            System.out.println("OUTLOOK GOOD");
         }
         if(userNumber>=11&&userNumber<=20) {
             System.out.println("ASK AGAIN LATER");
@@ -39,7 +52,6 @@ public class Main {
         if(userNumber>=91&&userNumber<=100) {
             System.out.println("MY SOURCES SAY NO");
         }
-
         else{
             System.out.println("Your number is insufficient. Make sure its a number between 1 and 100.");
     }
