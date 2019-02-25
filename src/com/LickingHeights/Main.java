@@ -6,7 +6,7 @@ public class Main {
 	Scanner keyboard;
 	keyboard = new Scanner(System.in);
 
-	System.out.println("think of a question and type a number");
+	System.out.println("Think of a question and type a number for a response");
 	int userNumber = keyboard.nextInt();
 
         if(userNumber>=1&&userNumber<=10) {
@@ -39,9 +39,9 @@ public class Main {
         if(userNumber>=91&&userNumber<=100) {
             System.out.println("MY SOURCES SAY NO");
         }
-        
+
         else{
-            System.out.println("Type a number between 1 and 100");
+            System.out.println("Your number is insufficient. Make sure its a number between 1 and 100.");
     }
     }
 }
