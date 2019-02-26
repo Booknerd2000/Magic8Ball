@@ -19,7 +19,7 @@ public class Main {
         System.out.println("       ........       .....       ");
         System.out.println("            ..........            ");
 
-	System.out.println("Think of a question and type a number for a response.");
+	System.out.println("Think of a question and type a number to shake the ball.");
 	int userNumber = keyboard.nextInt();
 
         System.out.println("            ..........            ");
@@ -99,7 +99,7 @@ public class Main {
             System.out.println("            ..........            ");
         }
         else{
-            System.out.println("Your number is insufficient. Make sure its a number between 1 and 100.");
+            System.out.println("You broke the Magic 8 Ball. Make sure its a number between 1 and 100.");
     }
     }
 }
